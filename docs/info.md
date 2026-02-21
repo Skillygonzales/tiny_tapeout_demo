@@ -8,13 +8,17 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## How it works
-
-Explain how your project works
+Several gates are connected to 6 input pins.
 
 ## How to test
 
-Explain how to use your project
+Set inputs 0 1 3 4 6 7 and check the output expected result
+-----------------------------------------------------------
+Input 0 -> 1 
+Input 1 -> 0
+Input 3 -> 1
+Input 4 -> 1
+Input 6 -> 1
+Input 7 -> 0
 
-## External hardware
-
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+The AND, OR, NAND and XOR gate should output 1.
